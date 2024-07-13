@@ -11,6 +11,9 @@ from django.views.generic import ListView, CreateView, DetailView, UpdateView, D
 
 
 # Create your views here.
+
+def root_path_view(request):
+    return redirect('cars_list')
     
 
 class CarListView(ListView):
