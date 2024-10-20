@@ -15,17 +15,6 @@ def get_car_ai_bio(model, brand, year):
     return response.text
 
 
-
-
-
-
-
-
-
-
-
-
-
 #from openai import OpenAI
 #
 #
